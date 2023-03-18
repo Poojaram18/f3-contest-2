@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style for the fetch data button */
+#fetchDataButton {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #7049c2;
+    color: white;
+    font-size: 16px;
+    border: 6px solid #4CAF50;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  /* Style for the data table */
+  #data-table {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Style for table header */
+  #data-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Style for table rows */
+  #data-table td {
+    border: 1px solid #155c61;
+    padding: 8px;
+  }
+  
+  /* Style for alternating row colors */
+  #data-table tr:nth-child(even) {
+    background-color: #11b9be;
+  }
+  
+  /* Style for loading indicator */
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  h1{
+    text-align: center;
+    color: #7049c2;
+  }
